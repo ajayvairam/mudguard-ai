@@ -1,0 +1,139 @@
+{
+  "interactions": [
+    {
+      "drug_a": "Aspirin",
+      "drug_b": "Warfarin",
+      "severity": "CRITICAL",
+      "description": "Concurrent use of Aspirin and Warfarin significantly increases the risk of major hemorrhage and gastrointestinal bleeding due to combined antiplatelet and anticoagulant actions.",
+      "concern": "High risk of uncontrolled systemic or gastrointestinal bleeding.",
+      "action": "Urgent review required. Avoid concurrent use unless specifically instructed and monitored by a cardiologist or hematologist with frequent INR checks.",
+      "source": "FDA Safety Communication / Clinical Pharmacology Reference"
+    },
+    {
+      "drug_a": "Clopidogrel",
+      "drug_b": "Omeprazole",
+      "severity": "HIGH",
+      "description": "Omeprazole significantly reduces the antiplatelet activity of Clopidogrel by inhibiting CYP2C19, the primary enzyme required to convert Clopidogrel to its active metabolite.",
+      "concern": "Decreased cardioprotection and increased risk of recurrent thrombosis, heart attack, or stroke.",
+      "action": "Avoid co-administration. Consider switching Omeprazole to Pantoprazole or an H2 blocker (e.g. Famotidine), which exhibits less CYP2C19 inhibition.",
+      "source": "FDA Drug Safety Alert / ACCP Guidelines"
+    },
+    {
+      "drug_a": "Aspirin",
+      "drug_b": "Ibuprofen",
+      "severity": "HIGH",
+      "description": "Ibuprofen may competitively inhibit the cardioprotective antiplatelet effect of low-dose Aspirin and markedly compounds gastrointestinal ulceration risk.",
+      "concern": "Loss of cardio-protective antiplatelet effect and amplified ulcer/bleeding risk.",
+      "action": "Take immediate-release Aspirin at least 30 minutes before or 8 hours after Ibuprofen, or substitute Acetaminophen/Paracetamol for pain relief.",
+      "source": "FDA Drug Safety Communication"
+    },
+    {
+      "drug_a": "Warfarin",
+      "drug_b": "Ibuprofen",
+      "severity": "CRITICAL",
+      "description": "NSAIDs like Ibuprofen increase the anticoagulant effect of Warfarin and induce gastrointestinal mucosal damage, creating severe bleeding hazards.",
+      "concern": "Severe gastrointestinal bleeding and elevated INR.",
+      "action": "Avoid combination. Use Paracetamol for pain or fever under medical supervision.",
+      "source": "American Heart Association / CHEST Antithrombotic Guidelines"
+    },
+    {
+      "drug_a": "Ibuprofen",
+      "drug_b": "Lisinopril",
+      "severity": "HIGH",
+      "description": "NSAIDs inhibit renal prostaglandins, attenuating the antihypertensive effect of ACE inhibitors and escalating the risk of acute kidney injury and hyperkalemia.",
+      "concern": "Loss of blood pressure control, renal deterioration, and elevated potassium levels.",
+      "action": "Monitor blood pressure and serum creatinine/potassium closely. Limit NSAID duration or use alternative analgesic.",
+      "source": "Kidney Disease Improving Global Outcomes (KDIGO)"
+    },
+    {
+      "drug_a": "Ibuprofen",
+      "drug_b": "Losartan",
+      "severity": "HIGH",
+      "description": "Concurrent use of ARBs (Losartan) and NSAIDs (Ibuprofen) may lead to acute renal impairment, especially in dehydrated or elderly patients, and blunts antihypertensive efficacy.",
+      "concern": "Acute renal failure and reduced blood pressure reduction.",
+      "action": "Ensure adequate hydration and monitor renal function. Prefer non-NSAID analgesics.",
+      "source": "KDIGO Clinical Guidelines"
+    },
+    {
+      "drug_a": "Atorvastatin",
+      "drug_b": "Clarithromycin",
+      "severity": "HIGH",
+      "description": "Strong CYP3A4 inhibitors like Clarithromycin can dramatically elevate Atorvastatin plasma concentrations, increasing risk of rhabdomyolysis.",
+      "concern": "Severe muscle pain, breakdown (rhabdomyolysis), and kidney failure.",
+      "action": "Temporarily suspend Atorvastatin during antibiotic treatment or choose Azithromycin as an alternative.",
+      "source": "FDA Prescribing Information"
+    },
+    {
+      "drug_a": "Ciprofloxacin",
+      "drug_b": "Warfarin",
+      "severity": "HIGH",
+      "description": "Ciprofloxacin inhibits CYP1A2 and CYP3A4, reducing Warfarin clearance and potentially eradicating vitamin K-producing gut flora.",
+      "concern": "Dramatic elevation of INR and serious bleeding.",
+      "action": "Frequent INR monitoring is mandatory. Warfarin dose adjustment typically required.",
+      "source": "Clinical Pharmacokinetics & Drug Interaction Studies"
+    },
+    {
+      "drug_a": "Tramadol",
+      "drug_b": "Cetirizine",
+      "severity": "MODERATE",
+      "description": "Co-administration of opioids and antihistamines can produce additive central nervous system (CNS) depression and psychomotor impairment.",
+      "concern": "Excessive somnolence, dizziness, and decreased alertness.",
+      "action": "Exercise caution when operating machinery or driving. Consider dose adjustments if excessive sedation occurs.",
+      "source": "Clinical Toxicology Database"
+    },
+    {
+      "drug_a": "Metformin",
+      "drug_b": "Cimetidine",
+      "severity": "MODERATE",
+      "description": "Cimetidine reduces renal clearance of Metformin, elevating systemic exposure and potential risk of lactic acidosis.",
+      "concern": "Increased Metformin adverse effects and gastrointestinal intolerance.",
+      "action": "Monitor blood glucose and signs of lactic acidosis. Consider alternative H2 receptor antagonist.",
+      "source": "ADA Clinical Compendium"
+    },
+    {
+      "drug_a": "Amlodipine",
+      "drug_b": "Simvastatin",
+      "severity": "MODERATE",
+      "description": "Amlodipine increases systemic exposure to Simvastatin by inhibiting CYP3A4 metabolism.",
+      "concern": "Elevated statin levels and increased risk of myopathy.",
+      "action": "Limit Simvastatin dose to 20 mg daily when co-administered with Amlodipine.",
+      "source": "FDA Drug Safety Communication"
+    },
+    {
+      "drug_a": "Lisinopril",
+      "drug_b": "Losartan",
+      "severity": "CRITICAL",
+      "description": "Dual blockade of the renin-angiotensin-aldosterone system (RAAS) with an ACE inhibitor and an ARB is generally contraindicated.",
+      "concern": "Significantly increased risk of hypotension, hyperkalemia, and acute renal failure with no added clinical benefit.",
+      "action": "Do not combine. Patient should be maintained on either an ACE inhibitor or an ARB, not both.",
+      "source": "AHA/ACC Hypertension Guidelines"
+    },
+    {
+      "drug_a": "Aspirin",
+      "drug_b": "Clopidogrel",
+      "severity": "MODERATE",
+      "description": "Dual antiplatelet therapy (DAPT) confers synergistic platelet inhibition, increasing the incidence of major gastrointestinal and systemic bleeding.",
+      "concern": "Elevated bleeding risk.",
+      "action": "Appropriate only under specific clinical indications (e.g. post-coronary stent or acute coronary syndrome) for an established duration with gastroprotection.",
+      "source": "AHA/ACC DAPT Guidelines"
+    },
+    {
+      "drug_a": "Diclofenac",
+      "drug_b": "Aspirin",
+      "severity": "HIGH",
+      "description": "Co-administration of two systemic NSAID/antiplatelet agents significantly compounds gastrointestinal ulceration and renal toxicity.",
+      "concern": "Gastrointestinal perforation, ulcers, and acute renal injury.",
+      "action": "Avoid combining multiple systemic NSAIDs.",
+      "source": "American College of Gastroenterology"
+    },
+    {
+      "drug_a": "Diclofenac",
+      "drug_b": "Ibuprofen",
+      "severity": "HIGH",
+      "description": "Simultaneous intake of two NSAIDs yields no additive therapeutic efficacy but substantially multiplies toxicities (ulcers, renal compromise, cardiac risk).",
+      "concern": "Duplication of NSAID toxicity.",
+      "action": "Discontinue one agent immediately in consultation with prescribing physician.",
+      "source": "WHO Guidelines on Rational Drug Use"
+    }
+  ]
+}

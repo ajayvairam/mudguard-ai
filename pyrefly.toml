@@ -1,0 +1,28 @@
+# Pyrefly Type Checker Configuration
+python-version = "3.11"
+python-platform = "windows"
+
+python-interpreter-path = "C:/Users/ajayv/AppData/Local/Programs/Python/Python311/python.exe"
+
+search-path = [
+    ".",
+    "backend",
+    "backend/api",
+    "backend/database",
+    "backend/models",
+    "backend/services"
+]
+
+site-package-path = [
+    "C:/Users/ajayv/AppData/Local/Programs/Python/Python311/Lib/site-packages"
+]
+
+ignore-missing-imports = [
+    "*"
+]
+
+[errors]
+missing-import = "ignore"
+bad-index = "ignore"
+unsupported-operation = "ignore"
+missing-attribute = "ignore"

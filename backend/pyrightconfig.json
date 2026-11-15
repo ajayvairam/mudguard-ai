@@ -1,0 +1,18 @@
+{
+  "include": [
+    "."
+  ],
+  "extraPaths": [
+    ".",
+    "..",
+    "api",
+    "database",
+    "models",
+    "services",
+    "C:/Users/ajayv/AppData/Local/Programs/Python/Python311/Lib/site-packages"
+  ],
+  "reportMissingImports": "none",
+  "reportMissingTypeStubs": false,
+  "reportUndefinedVariable": "none",
+  "typeCheckingMode": "off"
+}

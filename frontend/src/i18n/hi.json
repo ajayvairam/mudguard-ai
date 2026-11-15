@@ -1,0 +1,71 @@
+{
+  "app_name": "MediGuard AI",
+  "nav": {
+    "dashboard": "डैशबोर्ड",
+    "prescriptions": "पर्चे (प्रिस्क्रिप्शन)",
+    "analysis": "सुरक्षा विश्लेषण",
+    "medications": "दवाइयाँ",
+    "reminders": "रिमाइंडर",
+    "history": "इतिहास",
+    "language": "भाषा",
+    "logout": "लॉग आउट",
+    "login": "लॉग इन",
+    "features": "विशेषताएँ",
+    "how_it_works": "यह कैसे काम करता है",
+    "safety": "सुरक्षा"
+  },
+  "hero": {
+    "headline": "आपके पर्चे। एक सुरक्षित दवा योजना।",
+    "subheading": "कई डॉक्टरों के पर्चे अपलोड करें और MediGuard AI से डुप्लिकेट दवाएं, परस्पर प्रभाव और गलत खुराक की जानकारी तुरंत पाएं।",
+    "cta_google": "Google से शुरू करें",
+    "cta_learn": "जानें कैसे काम करता है",
+    "demo_login": "तुरंत डेमो लॉगिन"
+  },
+  "dashboard": {
+    "welcome": "वापसी पर स्वागत है",
+    "cta_title": "अपने पर्चे का विश्लेषण करें",
+    "cta_desc": "डुप्लिकेट दवाओं और परस्पर क्रियाओं की जांच के लिए पर्चे अपलोड करें।",
+    "upload_btn": "+ पर्चे अपलोड करें",
+    "load_samples": "सैंपल पर्चे लोड करें",
+    "stat_prescriptions": "पर्चे",
+    "stat_medicines": "दवाइयाँ",
+    "stat_interactions": "संभावित प्रभाव",
+    "stat_duplicates": "डुप्लिकेट दवाएं",
+    "stat_dosage": "खुराक की चिंताएं",
+    "stat_reminders": "आगामी रिमाइंडर",
+    "today_schedule": "आज का दवा शेड्यूल",
+    "mark_taken": "दवा ले ली",
+    "taken": "ले ली",
+    "no_reminders": "आज के लिए कोई निर्धारित दवा नहीं है।"
+  },
+  "safety": {
+    "banner": "MediGuard AI केवल दवा सुरक्षा सहायता प्रदान करता है, यह पेशेवर चिकित्सा सलाह का विकल्प नहीं है।",
+    "warning_review_required": "डॉक्टर सत्यापन आवश्यक है"
+  },
+  "analysis": {
+    "title": "पर्चे का विश्लेषण पूरा हुआ",
+    "summary_title": "दवा सुरक्षा सारांश",
+    "clean_medicines": "सुरक्षित दवाइयाँ",
+    "duplicates_found": "डुप्लिकेट दवाएं मिलीं",
+    "interactions_found": "दवा परस्पर क्रियाएं मिलीं",
+    "dosage_concerns_found": "खुराक संबंधी चिंताएं",
+    "overlaps_found": "समान असर वाली दवाएं मिलीं",
+    "review_heading": "कृपया अपनी दवाइयों की समीक्षा करें",
+    "confirm_btn": "पुष्टि करें और सारांश देखें",
+    "edit": "बदलें",
+    "listen": "हिंदी में सुनें",
+    "speaking": "आवाज़ चल रही है...",
+    "listen_summary": "पूरा सारांश हिंदी में सुनें",
+    "stop_listening": "रोकें"
+  },
+  "medications": {
+    "title": "समेकित दवा सारांश",
+    "subtitle": "AI-निर्मित दवा सारांश - योग्य चिकित्सक द्वारा समीक्षा आवश्यक।",
+    "download_pdf": "PDF डाउनलोड करें",
+    "schedule": "दवा समय सारणी",
+    "morning": "सुबह",
+    "afternoon": "दोपहर",
+    "evening": "शाम",
+    "night": "रात"
+  }
+}

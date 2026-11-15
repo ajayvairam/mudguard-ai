@@ -1,0 +1,71 @@
+{
+  "app_name": "MediGuard AI",
+  "nav": {
+    "dashboard": "Dashboard",
+    "prescriptions": "Prescriptions",
+    "analysis": "Analysis",
+    "medications": "Medications",
+    "reminders": "Reminders",
+    "history": "History",
+    "language": "Language",
+    "logout": "Logout",
+    "login": "Login",
+    "features": "Features",
+    "how_it_works": "How It Works",
+    "safety": "Safety"
+  },
+  "hero": {
+    "headline": "Your Prescriptions. One Safer Medication Plan.",
+    "subheading": "Upload prescriptions from multiple doctors and let MediGuard AI identify duplicate medicines, potential drug interactions, overlapping medications, and dosage concerns.",
+    "cta_google": "Get Started with Google",
+    "cta_learn": "Learn How It Works",
+    "demo_login": "Instant Demo Login"
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "cta_title": "Analyse Your Prescriptions",
+    "cta_desc": "Upload one or more prescriptions to identify duplicate medicines, potential interactions, overlapping treatments, and dosage concerns.",
+    "upload_btn": "+ Upload Prescriptions",
+    "load_samples": "Load Realistic Sample Prescriptions",
+    "stat_prescriptions": "Prescriptions",
+    "stat_medicines": "Medicines",
+    "stat_interactions": "Potential Interactions",
+    "stat_duplicates": "Duplicate Medicines",
+    "stat_dosage": "Dosage Concerns",
+    "stat_reminders": "Upcoming Reminders",
+    "today_schedule": "Today's Medication Schedule",
+    "mark_taken": "Mark as Taken",
+    "taken": "Taken",
+    "no_reminders": "No scheduled medications for today."
+  },
+  "safety": {
+    "banner": "MediGuard AI provides medication-safety assistance and does not replace professional medical advice. Always consult a qualified doctor or pharmacist before starting, stopping, or changing medication.",
+    "warning_review_required": "REQUIRES PROFESSIONAL VERIFICATION"
+  },
+  "analysis": {
+    "title": "Prescription Analysis Complete",
+    "summary_title": "Medication Safety Summary",
+    "clean_medicines": "medicines with no major detected concerns",
+    "duplicates_found": "duplicate medicines detected",
+    "interactions_found": "potential interactions detected",
+    "dosage_concerns_found": "dosage concerns detected",
+    "overlaps_found": "therapeutic overlaps detected",
+    "review_heading": "Please Review Your Medicines",
+    "confirm_btn": "Confirm & View Consolidated Summary",
+    "edit": "Edit",
+    "listen": "Listen",
+    "speaking": "Speaking...",
+    "listen_summary": "Listen to Summary in My Language",
+    "stop_listening": "Stop Voice"
+  },
+  "medications": {
+    "title": "Consolidated Medication Summary",
+    "subtitle": "AI-generated medication summary - requires review by a qualified healthcare professional.",
+    "download_pdf": "Generate PDF",
+    "schedule": "Medication Schedule",
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "evening": "Evening",
+    "night": "Night"
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "drugs": [
+    {
+      "generic_name": "Paracetamol",
+      "synonyms": ["Acetaminophen", "PCM", "APAP", "Calpol", "Dolo 650", "Dolo", "Crocin", "Tylenol", "Panadol", "Pacimol"],
+      "active_ingredient": "Paracetamol",
+      "therapeutic_class": "Analgesic / Antipyretic",
+      "standard_strengths": ["325 mg", "500 mg", "650 mg", "1000 mg"],
+      "standard_route": "Oral",
+      "max_daily_dose_mg": 4000,
+      "typical_single_dose_mg": 650,
+      "warnings": "Exceeding 4000 mg daily may cause severe liver damage. Exercise extreme caution when combining multiple cold/flu or pain formulations."
+    },
+    {
+      "generic_name": "Ibuprofen",
+      "synonyms": ["Brufen", "Advil", "Motrin", "Combiflam (Ibuprofen component)", "Ibugesic"],
+      "active_ingredient": "Ibuprofen",
+      "therapeutic_class": "NSAID",
+      "standard_strengths": ["200 mg", "400 mg", "600 mg", "800 mg"],
+      "standard_route": "Oral",
+      "max_daily_dose_mg": 2400,
+      "typical_single_dose_mg": 400,
+      "warnings": "NSAID with risk of gastrointestinal bleeding, ulceration, and renal impairment. Avoid combining with other NSAIDs or anticoagulants without medical supervision."
+    },
+    {
+      "generic_name": "Aspirin",
+      "synonyms": ["Acetylsalicylic Acid", "ASA", "Ecosprin", "Disprin", "Bayer Aspirin", "Loprin"],
+      "active_ingredient": "Acetylsalicylic Acid",
+      "therapeutic_class": "Antiplatelet / NSAID",
+      "standard_strengths": ["75 mg", "81 mg", "150 mg", "300 mg", "325 mg"],
+      "standard_route": "Oral",
+      "max_daily_dose_mg": 4000,
+      "typical_single_dose_mg": 75,
+      "warnings": "Antiplatelet therapy increases bleeding risk. Co-administration with other blood thinners or NSAIDs requires close physician monitoring."
+    },
+    {
+      "generic_name": "Atorvastatin",
+      "synonyms": ["Lipitor", "Atorva", "Storvas", "Atocor", "Tonact"],
+      "active_ingredient": "Atorvastatin",
+      "therapeutic_class": "HMG-CoA Reductase Inhibitor (Statin)",
+      "standard_strengths": ["10 mg", "20 mg", "40 mg", "80 mg"],
+      "standard_route": "Oral",
+      "max_daily_dose_mg": 80,
+      "typical_single_dose_mg": 20,
+      "warnings": "Used for lipid lowering. Risk of myopathy and rhabdomyolysis when combined with certain macrolide antibiotics or gemfibrozil."
+    },
+    {
+      "generic_name": "Metformin",
+      "synonyms": ["Glucophage", "Glycomet", "Gluformin", "Riomet", "Obimet"],
+      "active_ingredient": "Metformin Hydrochloride",
+      "therapeutic_class": "Biguanide Antidiabetic",
+      "standard_strengths": ["500 mg", "850 mg", "1000 mg"],
+      "standard_route": "Oral",
+      "max_daily_dose_mg": 2550,
+      "typical_single_dose_mg": 500,
+      "warnings": "Take with meals to minimize GI distress. Rare but serious risk of lactic acidosis, especially in renal dysfunction or concurrent iodinated radiocontrast."
+    },
+    {
+      "generic_name": "Clopidogrel",
+      "synonyms": ["Plavix", "Deplatt", "Clopilet", "Ceruvit"],
+      "active_ingredient": "Clopidogrel",
+      "therapeutic_class": "P2Y12 Antiplatelet",
+      "standard_strengths": ["75 mg", "300 mg"],
+      "standard_route": "Oral",
+      "max_daily_dose_mg": 300,
+      "typical_single_dose_mg": 75,
+      "warnings": "Inhibits platelet activation. Interaction with omeprazole significantly reduces antiplatelet efficacy; pantoprazole is generally preferred."
+    },
+    {
+      "generic_name": "Amoxicillin",
+      "synonyms": ["Mox", "Novamox", "Amoxil", "Augmentin (Amoxicillin component)", "Moxclav"],
+      "active_ingredient": "Amoxicillin",
+      "therapeutic_class": "Beta-Lactam Antibiotic",
+      "standard_strengths": ["250 mg", "500 mg", "875 mg"],
+      "standard_route": "Oral",
+      "max_daily_dose_mg": 3000,
+      "typical_single_dose_mg": 500,
+      "warnings": "Finish the complete prescribed course. Check for penicillin allergy before administration."
+    },
+    {
+      "generic_name": "Omeprazole",
+      "synonyms": ["Prilosec", "Omez", "Omee", "Losec", "Zegerid"],
+      "active_ingredient": "Omeprazole",
+      "therapeutic_class": "Proton Pump Inhibitor (PPI)",
+      "standard_strengths": ["10 mg", "20 mg", "40 mg"],
+      "standard_route": "Oral",
+      "max_daily_dose_mg": 80,
+      "typical_single_dose_mg": 20,
+      "warnings": "Inhibits CYP2C19. Reduces activation of clopidogrel. Take 30-60 minutes before breakfast."
+    },
+    {
+      "generic_name": "Pantoprazole",
+      "synonyms": ["Protonix", "Pan", "Pantocid", "Pantosec", "Panto"],
+      "active_ingredient": "Pantoprazole",
+      "therapeutic_class": "Proton Pump Inhibitor (PPI)",
+      "standard_strengths": ["20 mg", "40 mg"],
+      "standard_route": "Oral",
+      "max_daily_dose_mg": 80,
+      "typical_single_dose_mg": 40,
+      "warnings": "Acid suppressant. Has lower CYP2C19 inhibition compared to omeprazole."
+    },
+    {
+      "generic_name": "Lisinopril",
+      "synonyms": ["Prinivil", "Zestril", "Lipril", "Listril"],
+      "active_ingredient": "Lisinopril",
+      "therapeutic_class": "ACE Inhibitor",
+      "standard_strengths": ["2.5 mg", "5 mg", "10 mg", "20 mg", "40 mg"],
+      "standard_route": "Oral",
+      "max_daily_dose_mg": 80,
+      "typical_single_dose_mg": 10,
+      "warnings": "Risk of hyperkalemia and acute kidney injury when combined with potassium supplements or NSAIDs. Monitor renal function and blood pressure."
+    },
+    {
+      "generic_name": "Losartan",
+      "synonyms": ["Cozaar", "Losar", "Repace", "Tozaar"],
+      "active_ingredient": "Losartan Potassium",
+      "therapeutic_class": "Angiotensin II Receptor Blocker (ARB)",
+      "standard_strengths": ["25 mg", "50 mg", "100 mg"],
+      "standard_route": "Oral",
+      "max_daily_dose_mg": 100,
+      "typical_single_dose_mg": 50,
+      "warnings": "Antihypertensive. Do not combine with ACE inhibitors. Risk of hyperkalemia with potassium-sparing diuretics."
+    },
+    {
+      "generic_name": "Amlodipine",
+      "synonyms": ["Norvasc", "Amlong", "Amtas", "Amlip", "Stamlo"],
+      "active_ingredient": "Amlodipine Besylate",
+      "therapeutic_class": "Calcium Channel Blocker (Dihydropyridine)",
+      "standard_strengths": ["2.5 mg", "5 mg", "10 mg"],
+      "standard_route": "Oral",
+      "max_daily_dose_mg": 10,
+      "typical_single_dose_mg": 5,
+      "warnings": "May cause peripheral edema. Interacts with simvastatin by increasing simvastatin systemic concentrations (limit simvastatin to 20 mg)."
+    },
+    {
+      "generic_name": "Warfarin",
+      "synonyms": ["Coumadin", "Jantoven", "Warf", "Uniwarfin"],
+      "active_ingredient": "Warfarin Sodium",
+      "therapeutic_class": "Vitamin K Antagonist Anticoagulant",
+      "standard_strengths": ["1 mg", "2 mg", "2.5 mg", "5 mg"],
+      "standard_route": "Oral",
+      "max_daily_dose_mg": 15,
+      "typical_single_dose_mg": 5,
+      "warnings": "Narrow therapeutic index. Requires frequent INR monitoring. Highly prone to drug-drug interactions with NSAIDs, antibiotics, and antiplatelets."
+    },
+    {
+      "generic_name": "Diclofenac",
+      "synonyms": ["Voveran", "Voltaren", "Cataflam", "Diclogesic", "Combiflam (Diclofenac component)"],
+      "active_ingredient": "Diclofenac Sodium",
+      "therapeutic_class": "NSAID",
+      "standard_strengths": ["25 mg", "50 mg", "75 mg", "100 mg"],
+      "standard_route": "Oral",
+      "max_daily_dose_mg": 150,
+      "typical_single_dose_mg": 50,
+      "warnings": "Strong NSAID with cardiovascular and gastrointestinal risks. Never combine with other systemic NSAIDs."
+    },
+    {
+      "generic_name": "Tramadol",
+      "synonyms": ["Ultram", "Tramazac", "Domadol", "Contramal", "Ultracet (Tramadol component)"],
+      "active_ingredient": "Tramadol Hydrochloride",
+      "therapeutic_class": "Opioid Analgesic",
+      "standard_strengths": ["50 mg", "100 mg"],
+      "standard_route": "Oral",
+      "max_daily_dose_mg": 400,
+      "typical_single_dose_mg": 50,
+      "warnings": "Centrally acting synthetic opioid. Serotonin syndrome risk with SSRIs/SNRIs. Risk of respiratory depression and dependence."
+    },
+    {
+      "generic_name": "Ciprofloxacin",
+      "synonyms": ["Cipro", "Ciplox", "Cifran", "Ciprobid"],
+      "active_ingredient": "Ciprofloxacin",
+      "therapeutic_class": "Fluoroquinolone Antibiotic",
+      "standard_strengths": ["250 mg", "500 mg", "750 mg"],
+      "standard_route": "Oral",
+      "max_daily_dose_mg": 1500,
+      "typical_single_dose_mg": 500,
+      "warnings": "Avoid administration with antacids, iron, or dairy due to chelation. Black box warning for tendon rupture and QT prolongation."
+    },
+    {
+      "generic_name": "Azithromycin",
+      "synonyms": ["Zithromax", "Azithral", "Azee", "Zady"],
+      "active_ingredient": "Azithromycin",
+      "therapeutic_class": "Macrolide Antibiotic",
+      "standard_strengths": ["250 mg", "500 mg"],
+      "standard_route": "Oral",
+      "max_daily_dose_mg": 500,
+      "typical_single_dose_mg": 500,
+      "warnings": "Cardiovascular QT prolongation warning. Caution with other QT-prolonging drugs."
+    },
+    {
+      "generic_name": "Metoprolol",
+      "synonyms": ["Lopressor", "Toprol XL", "Betaloc", "Metolar", "Met-XL"],
+      "active_ingredient": "Metoprolol Tartrate / Succinate",
+      "therapeutic_class": "Beta-1 Selective Adrenergic Blocker",
+      "standard_strengths": ["25 mg", "50 mg", "100 mg"],
+      "standard_route": "Oral",
+      "max_daily_dose_mg": 400,
+      "typical_single_dose_mg": 50,
+      "warnings": "Do not stop abruptly. Monitor pulse rate and blood pressure."
+    },
+    {
+      "generic_name": "Gabapentin",
+      "synonyms": ["Neurontin", "Gabapin", "Gaba", "Gantin"],
+      "active_ingredient": "Gabapentin",
+      "therapeutic_class": "Anticonvulsant / Neuropathic Pain Agent",
+      "standard_strengths": ["100 mg", "300 mg", "400 mg", "600 mg"],
+      "standard_route": "Oral",
+      "max_daily_dose_mg": 3600,
+      "typical_single_dose_mg": 300,
+      "warnings": "CNS depression. Caution when combining with opioids (respiratory depression risk)."
+    },
+    {
+      "generic_name": "Cetirizine",
+      "synonyms": ["Zyrtec", "Cetzine", "Alerid", "Okacet"],
+      "active_ingredient": "Cetirizine Dihydrochloride",
+      "therapeutic_class": "Second-Generation Antihistamine",
+      "standard_strengths": ["5 mg", "10 mg"],
+      "standard_route": "Oral",
+      "max_daily_dose_mg": 10,
+      "typical_single_dose_mg": 10,
+      "warnings": "May cause mild drowsiness. Avoid combination with alcohol or heavy CNS sedatives."
+    }
+  ]
+}
